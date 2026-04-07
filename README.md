@@ -18,15 +18,16 @@ Backend Proxying: All API requests are handled by the server. The client-side co
 
 Environment Variables: API keys are stored in a protected .env file, which is excluded from version control via .gitignore.
 
-📂 Project Structure
-Plaintext
+## 📂 Project Structure
+
+```text
 private-ai-chat/
 ├── public/
 │   └── index.html      # Frontend: User interface & Chat logic
-├── .env                # Private: API Keys (Hidden from GitHub)
+├── .env.example        # Template for API keys
 ├── .gitignore          # Security: Prevents .env from being uploaded
-├── package.json        # Dependencies & Scripts
-├── server.js           # Backend: Express server & API Integration
+├── package.json        # Project dependencies
+├── server.js           # Backend: Express server & Gemini API
 └── README.md           # Documentation
 ⚙️ Installation & Setup
 Clone the repository:
@@ -44,7 +45,7 @@ Create a file named .env in the root directory.
 
 Add your Google AI Studio API key:
 
-Фрагмент кода
+Code fragment
 GOOGLE_API_KEY=your_actual_api_key_here
 PORT=3000
 Run the application:
