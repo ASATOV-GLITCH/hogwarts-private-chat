@@ -9,7 +9,7 @@ Frontend: HTML5, CSS3 (Custom Dark Tech Theme), Vanilla JavaScript.
 
 Backend: Node.js, Express.js.
 
-AI Engine: Google Gemini 1.5 Flash API.
+AI Engine: Google Gemini 2.5 Flash API.
 
 Environment Management: Dotenv (for secure API key storage).
 
